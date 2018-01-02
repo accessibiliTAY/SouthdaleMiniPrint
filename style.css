@@ -127,3 +127,21 @@ img {
 .aftermap {
   display: block;
 }
+.offsetcontainer {
+  width: 30%;
+  height: auto;
+  display: inline-flex;
+  padding: 1%;
+}
+.offsetdesc {
+  display: inline-flex;
+}
+.digitalcontainer {
+  width: 30%;
+  height: auto;
+  padding: 1%;
+  display: inline-block;
+}
+.digitaldesc {
+  display: inline-flex;
+}
