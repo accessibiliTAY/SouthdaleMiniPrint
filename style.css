@@ -4,12 +4,97 @@ body, html {
 }
 
 body, h1, h2, h3, h4, h5, h6{
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  display: block;
 
+
+}
+div{
+  width: 100%
+}
+/*img {
+  width: auto;
+  height: auto;
+}*/
+
+a {
+    text-decoration: none;
+    cursor: auto;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+
+}
+
+li {
+  display: inline-block;
+  padding: 10% 16px;
+  height: 100%;
+
+}
+
+li a {
+  padding: 14px 16px;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  height: 100%;
+
+
+
+}
+
+li a:hover {
+    background-color: grey;
 }
 
 .topnav {
   font-size: 14px;
-  
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+}
+.logocontainer {
+  width: 10%;
+  height: 100%;
+  float: left;
+  display: inline-flex;
+
+}
+
+.menucontainer{
+  width: 45%;
+  height: 100%;
+  float: left;
+  display: inline-flex;
+
+}
+.restofcontainer {
+  width: 45%;
+  height: 100%;
+  float: left;
+  display: inline-flex;
+}
+.menucontainer li{
+  width: 50%;
+  height: 100%
+}
+.restofcontainer li{
+  width: 50%;
+  height: 100%;
+
 }
