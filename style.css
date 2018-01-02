@@ -3,13 +3,29 @@ body, html {
   height: auto;
 }
 
-body, h1, h2, h3, h4, h5, h6{
+body, h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   display: block;
 
 
 }
+h1 {
+  text-align: center;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  display: block;
+  padding-left: 1%
+
+}
+
+h3{
+  padding-top: 20px;
+  padding-left: 2%;
+}
+
 div{
   width: 100%
 }
@@ -17,7 +33,11 @@ div{
   width: auto;
   height: auto;
 }*/
-
+p{
+  width: 90%;
+  padding-left: 3%;
+  padding-bottom: 2%;
+}
 a {
     text-decoration: none;
     cursor: auto;
@@ -56,7 +76,11 @@ li a {
 li a:hover {
     background-color: grey;
 }
-
+iframe {
+  border: 0;
+  padding-left: 1%;
+  display: block;
+}
 .topnav {
   font-size: 14px;
   width: 100%;
@@ -68,6 +92,7 @@ img {
   height: auto;
 
 }
+
 .logocontainer {
   width: 10%;
   height: 100%;
@@ -97,4 +122,8 @@ img {
   width: 50%;
   height: 100%;
 
+}
+
+.aftermap {
+  display: block;
 }
