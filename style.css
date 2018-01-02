@@ -17,7 +17,9 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   display: block;
-  padding-left: 1%
+  padding-left: 1%;
+
+
 
 }
 
@@ -144,4 +146,26 @@ img {
 }
 .digitaldesc {
   display: inline-flex;
+}
+.map {
+  padding: 1%;
+  padding-left: 4%;
+}
+.locationmap {
+  padding-top: 1%;
+  padding-left: 3%;
+}
+.hours{
+  font-size: 150%;
+  padding-left: 3%;
+
+
+}
+.days{
+  font-size: 100%;
+  padding-top: .5%;
+  padding-left: 4%;
+}
+.digitalservices {
+  
 }
