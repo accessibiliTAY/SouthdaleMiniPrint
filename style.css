@@ -1,7 +1,7 @@
 body, html {
   width: auto;
   height: auto;
-  background-image: 'file:///Users/Taylor/coding/SouthdaleMiniPrint/background.jpg';
+
 }
 
 body, h1{
@@ -13,12 +13,14 @@ body, h1{
 }
 h1 {
   text-align: center;
+  color: black;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   display: block;
   padding-left: 1%;
+  color: black;
 
 
 
@@ -27,6 +29,7 @@ h2{
 h3{
   padding-top: 20px;
   padding-left: 2%;
+  color: black;
 }
 
 div{
@@ -40,6 +43,7 @@ p{
   width: 90%;
   padding-left: 3%;
   padding-bottom: 2%;
+  color: black;
 }
 a {
     text-decoration: none;
@@ -125,6 +129,20 @@ img {
   height: 100%;
   padding: 14% 16px;
 
+}
+
+.mainsection {
+  background-image: url("file:///Users/Taylor/coding/SouthdaleMiniPrint/background2.jpg");
+  height: auto;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment: fixed;
+  opacity: 0.9;
+}
+.mainsection h1{
+  color: black;
 }
 .aftermap {
   display: block;
