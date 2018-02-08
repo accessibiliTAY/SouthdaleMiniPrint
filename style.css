@@ -192,7 +192,7 @@ img {
 }
 .offsetcontainer {
   width: 30%;
-  height: auto;
+  height: 200px;
   display: inline-flex;
   padding: 1%;
 }
